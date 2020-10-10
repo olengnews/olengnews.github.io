@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> OlengNews.github.io </title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+      
+<div class="wrapper">
+		<marquee style="background-color: black; padding: 5px; color: white;" width="100%" scrollamount="5"> .......................................Di isi terserah dulu ya....................................... </marquee>
+		<header>
+			<h1>UPDATE BERITA TERBARU DI OLENGNEWS</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="../index.html"> Beranda </a></li>
+				<li><a href="politik.html"> Politik </a></li>
+				<li><a href="pendidikan.html"> Pendidikan </a></li>
+				<li><a href="about.html"> About </a></li>
+			</ul>
+		</nav>
+		<div class="column content">
+
+			<aside>
+				<a href="artikel1.html"><figure style="background-image: url('../image/presiden-joko-widodo-1_169.jpg'); padding-top: 130px; color: white;"><h4>Ramai-ramai Kepala Daerah Mohon Jokowi Cabut Omnibus Law</h2></figure></a>
+			</aside>
+
+			<aside>
+				<a href="artikel2.html"><figure style="background-image: url('../image/pengesahan-uu-cipta-kerja-3_169.jpeg'); padding-top: 130px; color: white;"><h4>Baleg: Omnibus Law Final di Paripurna, Tinggal Perbaikan Typo</h2></figure></a>
+			</aside>
+
+			<aside>
+				<a href="artikel3.html"><figure style="background-image: url('../image/demo-tolak-omnibus-law-cipta-kerja-di-patung-kuda-13_169.jpeg'); padding-top: 130px; color: white;"><h4>Mahasiswa Bantah Tudingan Pemerintah Demo Ditunggangi Elite</h2></figure></a>
+			</aside>
+
+			<aside>
+				<a href="artikel3.html"><figure style="background-image: url('../image/5f7d5c5c92969.png'); padding-top: 130px; color: white;"><h4>Orangtua dan Guru, Ini Cara Kenali dan Atasi Gangguan Mental Siswa</h2></figure></a>
+			</aside>			
+
+		</div>
+
+		<div class="column side">
+			
+			<form>
+               <input type="text" placeholder="Search.." id="myInput" style=" width: 82%; margin-top: 4%;">
+               <input type="reset" onclick="myFunction()" value="cari" style="float:right; display: block; width: 18%; height: 43px; margin-top: 4%;"></input>
+               </form>
+			<div class="column in">
+			<ul id="myUL">
+			  <li><a href="web/artikel1.html">Ramai-ramai Kepala Daerah Mohon Jokowi Cabut Omnibus Law</a></li>
+			  <li><a href="web/artikel2.html">Baleg: Omnibus Law Final di Paripurna, Tinggal Perbaikan Typo</a></li>
+			  <li><a href="web/artikel3.html">Mahasiswa Bantah Tudingan Pemerintah Demo Ditunggangi Elite</a></li>
+			  <li><a href="web/artikel4.html">Orangtua dan Guru, Ini Cara Kenali dan Atasi Gangguan Mental Siswa</a></li>
+			  <li><a href="web/artikel5.html">Pengawas Sekolah dan Strategi Menjaga Kualitas Pendidikan di Tengah Pandemi</a></li>
+			  <li><a href="web/artikel6.html">Nadiem Sarankan Sering “Nyontek” Antara Guru untuk Hadapi Pandemi</a></li>
+			</ul>
+
+			<script>
+			function myFunction() {
+			    var input, filter, ul, li, a, i, txtValue;
+			    input = document.getElementById("myInput");
+			    filter = input.value.toUpperCase();
+			    ul = document.getElementById("myUL");
+			    li = ul.getElementsByTagName("li");
+			    for (i = 0; i < li.length; i++) {
+			        a = li[i].getElementsByTagName("a")[0];
+			        txtValue = a.textContent || a.innerText;
+			        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			            li[i].style.display = "";
+			        } else {
+			            li[i].style.display = "none";
+			        }
+			    }
+			}
+			</script>
+			</div>
+
+		</div>
+
+		<footer>
+			<center> COPYRIGHT@2020 </center>
+		</footer>
+</div>
+</body>
+</html>
