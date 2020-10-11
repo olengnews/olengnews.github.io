@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> OlengNews.github.io </title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+<div class="wrapper">
+		 <marquee style="background-color: black; padding: 5px; color: white;" width="100%" scrollamount="5"> .......................................Di isi terserah dulu ya....................................... </marquee>
+		<header>
+			<h1>UPDATE BERITA TERBARU DI OLENGNEWS</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="../index.html"> Beranda </a></li>
+				<li><a href="politik.html"> Politik </a></li>
+				<li><a href="pendidikan.html"> Pendidikan </a></li>
+				<li><a href="about.html"> About </a></li>
+			</ul>
+		</nav>
+		<div class="column content">
+
+			<div class="content berita"> 
+				<h1> Mahasiswa Bantah Tudingan Pemerintah Demo Ditunggangi Elite </h1>
+				<img src="../image/demo-tolak-omnibus-law-cipta-kerja-di-patung-kuda-13_169.jpeg" style="width: 80%; height: 60%;">
+
+				<p>
+					Jakarta, CNN Indonesia -- Badan Eksekutif Mahasiswa Seluruh Indonesia (BEM SI) membantah tudingan pemerintah bahwa unjuk rasa tolak Omninus Law Cipta Kerja di seluruh daerah didanai dan ditunggangi elite.  
+				</p>
+
+				<p>
+					"Aksi Tolak Omnibus Law murni berlandaskan keresahan dan kepentingan rakyat yang tidak diakomodir oleh ketidakbecusan Dewan Perwakilan Rakyat dan pemerintah," kata Remy lewat keterangan tertulis kepada CNNIndonesia.com, Sabtu (10/10).</p>
+
+				<p>
+					Remy menyampaikan gelombang aksi unjuk rasa adalah sikap ketidaksetujuan rakyat terhadap undang-undang tersebut. Seharusnya Presiden Joko Widodo bisa membaca hal tersebut.
+				</p>
+
+				<p>
+					Namun yang terjadi justru sebaliknya. Pemerintah dan DPR mengacuhkan suara rakyat. Bahkan Jokowi tak menghadapi gelombang massa aksi di Jakarta.
+				</p>
+
+				<p>
+					"Kami juga menyayangkan sikap Presiden Republik Indonesia yang memilih pergi pada kegiatan lain sementara mahasiswa yang merupakan rakyatnya sendiri ingin bertemu di Istana Merdeka," ujarnya.
+				</p>
+
+				<p>
+					Remy juga menjelaskan kericuhan yang terjadi saat aksi tidak dilakukan elemen mahasiswa. Dia menyebut kericuhan dipicu tindakan represif aparat.
+				</p>
+
+				<p>
+					"Aliansi BEM Seluruh Indonesia menyatakan sikap mengecam tindakan represif aparat dalam melakukan pengamanan aksi massa," ucap Remy.
+
+				</p>
+
+				<p>
+					Sebelumnya, aksi unjuk rasa tolak Omnibus Law Undang-undang Cipta Kerja digelar di sejumlah daerah. 
+				</p>
+
+				<p>
+					Pemerintah menuding ada elite politik yang mendanai dan menjadi aktor intelektual di balik aksi itu. Pernyataan tersebut dilontarkan oleh Menko Polhukam Mahfud MD dan Menko Perekonomian Airlangga Hartarto.
+				</p>
+
+				<p>
+					"Sebetulnya, pemerintah tahu siapa yang demo itu, kami tahu siapa yang menggerakkan, siapa sponsornya, siapa yang membiayai. Pemerintah sudah tahu siapa tokoh-tokoh intelek dibalik penggerak demo," kata Airlangga di program Squawk Box CNBC Indonesia TV, Kamis (8/10).
+				</p>
+
+			</div>
+
+		</div>
+
+		<div class="column side">
+			
+			<form>
+               <input type="text" placeholder="Search.." id="myInput" style=" width: 82%; margin-top: 4%;">
+               <input type="reset" onclick="myFunction()" value="cari" style="float:right; display: block; width: 18%; height: 43px; margin-top: 4%;"></input>
+               </form>
+			<div class="column in">
+			<ul id="myUL">
+			  <li><a href="web/artikel1.html">Ramai-ramai Kepala Daerah Mohon Jokowi Cabut Omnibus Law</a></li>
+			  <li><a href="web/artikel2.html">Baleg: Omnibus Law Final di Paripurna, Tinggal Perbaikan Typo</a></li>
+			  <li><a href="web/artikel3.html">Mahasiswa Bantah Tudingan Pemerintah Demo Ditunggangi Elite</a></li>
+			  <li><a href="web/artikel4.html">Ma'ruf Amin Minta Pendidik Kembangkan Pembelajaran Adaptif di Masa Pandemi</a></li>
+			  <li><a href="web/artikel5.html">Presiden SMU Ungkap Perubahan Dunia Pendidikan di Era Pandemi COVID-19</a></li>
+			  <li><a href="web/artikel6.html">Nadiem Sebut Pendidikan Banyak Berubah Untuk Hadapi Pandemi Covid-19</a></li>
+			</ul>
+
+			<script>
+			function myFunction() {
+			    var input, filter, ul, li, a, i, txtValue;
+			    input = document.getElementById("myInput");
+			    filter = input.value.toUpperCase();
+			    ul = document.getElementById("myUL");
+			    li = ul.getElementsByTagName("li");
+			    for (i = 0; i < li.length; i++) {
+			        a = li[i].getElementsByTagName("a")[0];
+			        txtValue = a.textContent || a.innerText;
+			        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			            li[i].style.display = "";
+			        } else {
+			            li[i].style.display = "none";
+			        }
+			    }
+			}
+			</script>
+			</div>
+
+		</div>
+
+		<footer>
+			<center> COPYRIGHT@2020 </center>
+		</footer>
+</div>
+</body>
+</html>
