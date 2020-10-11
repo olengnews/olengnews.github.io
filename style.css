@@ -107,6 +107,7 @@ nav li a:hover, nav li a.current{
 
 	margin-left: 0.4px;
 	width : 20.1%;
+	height : auto;
 	border-top: 2px solid #000000;
 }
 
